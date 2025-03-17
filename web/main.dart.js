@@ -88894,7 +88894,7 @@ B.b.a1(s.y)
 s.z=A.b([],t.H7)},
 ln(){var s=0,r=A.Q(t.H),q=1,p=[],o=this,n,m,l,k,j,i,h
 var $async$ln=A.M(function(a,b){if(a===1){p.push(b)
-s=q}while(true)switch(s){case 0:i=A.di("http://192.168.1.26:8000/ingredientes",0,null)
+s=q}while(true)switch(s){case 0:i=A.di("http://18.191.101.196:8000/ingredientes",0,null)
 q=3
 s=6
 return A.R(A.Zy(i),$async$ln)
@@ -88919,7 +88919,7 @@ return A.P($async$ln,r)},
 zZ(a){return this.amT(a)},
 amT(a){var s=0,r=A.Q(t.H),q=1,p=[],o=this,n,m,l,k,j,i,h
 var $async$zZ=A.M(function(b,c){if(b===1){p.push(c)
-s=q}while(true)switch(s){case 0:i=A.di("http://192.168.1.26:8000/platillos/"+a,0,null)
+s=q}while(true)switch(s){case 0:i=A.di("http://18.191.101.196:8000/platillos/"+a,0,null)
 q=3
 s=6
 return A.R(A.Zy(i),$async$zZ)
@@ -88943,7 +88943,7 @@ case 1:return A.N(p.at(-1),r)}})
 return A.P($async$zZ,r)},
 wC(){var s=0,r=A.Q(t.H),q=1,p=[],o=this,n,m,l,k,j,i,h,g,f,e,d,c,b
 var $async$wC=A.M(function(a,a0){if(a===1){p.push(a0)
-s=q}while(true)switch(s){case 0:d=A.di(o.a.d?"http://192.168.1.26:8000/editar_platillo":"http://192.168.1.26:8000/agregar_platillo",0,null)
+s=q}while(true)switch(s){case 0:d=A.di(o.a.d?"http://18.191.101.196:8000/editar_platillo":"http://18.191.101.196:8000/agregar_platillo",0,null)
 c=o.a.c
 c=c==null?null:c.i(0,"id")
 k=o.d.a.a
@@ -89082,7 +89082,7 @@ p.sc4(o.a.c.i(0,"categoria"))}else{q.eS(B.bf)
 p.eS(B.bf)}},
 wD(){var s=0,r=A.Q(t.H),q=1,p=[],o=this,n,m,l,k,j,i,h,g,f,e
 var $async$wD=A.M(function(a,b){if(a===1){p.push(b)
-s=q}while(true)switch(s){case 0:g=A.di(o.a.d?"http://192.168.1.26:8000/editar_ingrediente":"http://192.168.1.26:8000/agregar_ingrediente",0,null)
+s=q}while(true)switch(s){case 0:g=A.di(o.a.d?"http://18.191.101.196:8000/editar_ingrediente":"http://18.191.101.196:8000/agregar_ingrediente",0,null)
 f=o.a.c
 f=f==null?null:f.i(0,"id")
 k=o.d
@@ -89142,7 +89142,7 @@ s.r.eS(B.bf)
 s.w=0},
 wE(){var s=0,r=A.Q(t.H),q,p=2,o=[],n=this,m,l,k,j,i,h,g,f,e,d
 var $async$wE=A.M(function(a,b){if(a===1){o.push(b)
-s=p}while(true)switch(s){case 0:f=A.di(n.a.d?"http://192.168.1.26:8000/editar_usuario":"http://192.168.1.26:8000/agregar_usuario",0,null)
+s=p}while(true)switch(s){case 0:f=A.di(n.a.d?"http://18.191.101.196:8000/editar_usuario":"http://18.191.101.196:8000/agregar_usuario",0,null)
 e=n.a.c
 e=e==null?null:e.i(0,"id")
 j=n.f
@@ -89221,7 +89221,7 @@ s.A_()
 s.f.U(s.ga7I())},
 A_(){var s=0,r=A.Q(t.H),q=1,p=[],o=this,n,m,l,k,j,i,h
 var $async$A_=A.M(function(a,b){if(a===1){p.push(b)
-s=q}while(true)switch(s){case 0:i=A.di("http://192.168.1.26:8000/platillos",0,null)
+s=q}while(true)switch(s){case 0:i=A.di("http://18.191.101.196:8000/platillos",0,null)
 q=3
 s=6
 return A.R(A.Zy(i),$async$A_)
@@ -89248,7 +89248,7 @@ a6Q(a){return A.ql(a)!=null},
 zI(a){return this.alx(a)},
 alx(a){var s=0,r=A.Q(t.H),q=1,p=[],o=this,n,m,l,k,j
 var $async$zI=A.M(function(b,c){if(b===1){p.push(c)
-s=q}while(true)switch(s){case 0:k=A.di("http://192.168.1.26:8000/eliminar_platillo/"+A.k(a.i(0,"id")),0,null)
+s=q}while(true)switch(s){case 0:k=A.di("http://18.191.101.196:8000/eliminar_platillo/"+A.k(a.i(0,"id")),0,null)
 q=3
 s=6
 return A.R(A.av8(k),$async$zI)
@@ -89409,7 +89409,7 @@ s.ln()
 s.f.U(s.gac_())},
 ln(){var s=0,r=A.Q(t.H),q=1,p=[],o=this,n,m,l,k,j,i,h
 var $async$ln=A.M(function(a,b){if(a===1){p.push(b)
-s=q}while(true)switch(s){case 0:i=A.di("http://192.168.1.26:8000/ingredientes",0,null)
+s=q}while(true)switch(s){case 0:i=A.di("http://18.191.101.196:8000/ingredientes",0,null)
 q=3
 s=6
 return A.R(A.Zy(i),$async$ln)
@@ -89434,7 +89434,7 @@ return A.P($async$ln,r)},
 zJ(a){return this.aly(a)},
 aly(a){var s=0,r=A.Q(t.H),q=1,p=[],o=this,n,m,l,k,j
 var $async$zJ=A.M(function(b,c){if(b===1){p.push(c)
-s=q}while(true)switch(s){case 0:k=A.di("http://192.168.1.26:8000/eliminar_ingrediente/"+A.k(a.i(0,"id")),0,null)
+s=q}while(true)switch(s){case 0:k=A.di("http://18.191.101.196:8000/eliminar_ingrediente/"+A.k(a.i(0,"id")),0,null)
 q=3
 s=6
 return A.R(A.av8(k),$async$zJ)
@@ -89534,7 +89534,7 @@ o=p.f.a.a
 p.y=o
 if(j.length===0||o.length===0){p.c.ae(t.l).f.k8(A.kt(null,null,null,null,null,B.J,null,A.aK("Por favor, complete todos los campos",null,null,null,null,null,null),null,B.bM,null,null,null,null,null,null,null,null,null))
 s=1
-break}j=A.di("http://192.168.1.26:8000/login_administrador",0,null)
+break}j=A.di("http://18.191.101.196:8000/login_administrador",0,null)
 o=t.N
 n=A.an(["Content-Type","application/json"],o,o)
 s=3
@@ -89611,7 +89611,7 @@ s.A1()
 s.f.U(s.ga7L())},
 A1(){var s=0,r=A.Q(t.H),q=1,p=[],o=this,n,m,l,k,j,i,h
 var $async$A1=A.M(function(a,b){if(a===1){p.push(b)
-s=q}while(true)switch(s){case 0:i=A.di("http://192.168.1.26:8000/usuarios",0,null)
+s=q}while(true)switch(s){case 0:i=A.di("http://18.191.101.196:8000/usuarios",0,null)
 q=3
 s=6
 return A.R(A.Zy(i),$async$A1)
@@ -89636,7 +89636,7 @@ return A.P($async$A1,r)},
 zK(a){return this.alz(a)},
 alz(a){var s=0,r=A.Q(t.H),q=1,p=[],o=this,n,m,l,k,j
 var $async$zK=A.M(function(b,c){if(b===1){p.push(c)
-s=q}while(true)switch(s){case 0:k=A.di("http://192.168.1.26:8000/eliminar_usuario/"+A.k(a.i(0,"id")),0,null)
+s=q}while(true)switch(s){case 0:k=A.di("http://18.191.101.196:8000/eliminar_usuario/"+A.k(a.i(0,"id")),0,null)
 q=3
 s=6
 return A.R(A.av8(k),$async$zK)
