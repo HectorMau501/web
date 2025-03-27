@@ -88803,7 +88803,7 @@ amO(a){var s=0,r=A.Q(t.H),q,p=2,o=[],n=[],m=this,l,k,j,i,h,g,f
 var $async$v5=A.M(function(b,c){if(b===1){o.push(c)
 s=p}while(true)switch(s){case 0:if(m.CW){s=1
 break}m.a4(new A.ak0(m))
-l=A.cJ("https://3.148.130.154:8000/ingredientes_ordenados_alfabeticamente?limit=10&page="+a,0,null)
+l=A.cJ("http://3.148.130.154:8000/ingredientes_ordenados_alfabeticamente?limit=10&page="+a,0,null)
 p=4
 s=7
 return A.R(A.rD(l),$async$v5)
@@ -88837,7 +88837,7 @@ if(q===r&&!s.CW&&s.cx)s.v5(++s.ch)},
 zT(a){return this.amN(a)},
 amN(a){var s=0,r=A.Q(t.H),q=1,p=[],o=this,n,m,l,k,j,i,h
 var $async$zT=A.M(function(b,c){if(b===1){p.push(c)
-s=q}while(true)switch(s){case 0:i=A.cJ("https://3.148.130.154:8000/platillos/"+a,0,null)
+s=q}while(true)switch(s){case 0:i=A.cJ("http://3.148.130.154:8000/platillos/"+a,0,null)
 q=3
 s=6
 return A.R(A.rD(i),$async$zT)
@@ -88861,7 +88861,7 @@ case 1:return A.N(p.at(-1),r)}})
 return A.P($async$zT,r)},
 wA(){var s=0,r=A.Q(t.H),q=1,p=[],o=this,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1
 var $async$wA=A.M(function(a2,a3){if(a2===1){p.push(a3)
-s=q}while(true)switch(s){case 0:a=A.cJ(o.a.d?"https://3.148.130.154:8000/editar_platillo":"https://3.148.130.154:8000/agregar_platillo",0,null)
+s=q}while(true)switch(s){case 0:a=A.cJ(o.a.d?"http://3.148.130.154:8000/editar_platillo":"http://3.148.130.154:8000/agregar_platillo",0,null)
 a0=o.a.c
 a0=a0==null?null:a0.h(0,"id")
 k=o.d.a.a
@@ -88903,7 +88903,7 @@ s=p}while(true)switch(s){case 0:f=B.c.ef(m.Q.a.a)
 if(f.length===0){m.a4(new A.ajM(m))
 s=1
 break}m.a4(new A.ajN(m))
-l=A.cJ("https://3.148.130.154:8000/buscar_ingredientes_exactos?query="+f+"&limit=10&page=1",0,null)
+l=A.cJ("http://3.148.130.154:8000/buscar_ingredientes_exactos?query="+f+"&limit=10&page=1",0,null)
 p=4
 s=7
 return A.R(A.rD(l),$async$ps)
@@ -89068,7 +89068,7 @@ p.sbN(o.a.c.h(0,"imagen"))}else{q.e2(B.aO)
 p.e2(B.aO)}},
 wB(){var s=0,r=A.Q(t.H),q=1,p=[],o=this,n,m,l,k,j,i,h,g,f,e
 var $async$wB=A.M(function(a,b){if(a===1){p.push(b)
-s=q}while(true)switch(s){case 0:g=A.cJ(o.a.d?"https://3.148.130.154:8000/editar_ingrediente":"https://3.148.130.154:8000/agregar_ingrediente",0,null)
+s=q}while(true)switch(s){case 0:g=A.cJ(o.a.d?"http://3.148.130.154:8000/editar_ingrediente":"http://3.148.130.154:8000/agregar_ingrediente",0,null)
 f=o.a.c
 f=f==null?null:f.h(0,"id")
 k=o.d
@@ -89128,7 +89128,7 @@ s.r.e2(B.aO)
 s.w=0},
 wC(){var s=0,r=A.Q(t.H),q,p=2,o=[],n=this,m,l,k,j,i,h,g,f,e,d
 var $async$wC=A.M(function(a,b){if(a===1){o.push(b)
-s=p}while(true)switch(s){case 0:f=A.cJ(n.a.d?"https://3.148.130.154:8000/editar_usuario":"https://3.148.130.154:8000/agregar_usuario",0,null)
+s=p}while(true)switch(s){case 0:f=A.cJ(n.a.d?"http://3.148.130.154:8000/editar_usuario":"http://3.148.130.154:8000/agregar_usuario",0,null)
 e=n.a.c
 e=e==null?null:e.h(0,"id")
 j=n.f
@@ -89210,7 +89210,7 @@ v4(){var s=0,r=A.Q(t.H),q,p=2,o=[],n=[],m=this,l,k,j,i,h,g,f
 var $async$v4=A.M(function(a,b){if(a===1){o.push(b)
 s=p}while(true)switch(s){case 0:if(m.x||!m.y||m.f.a.a.length!==0){s=1
 break}m.a4(new A.amL(m))
-l=A.cJ("https://3.148.130.154:8000/platillos?page="+m.r+"&limit=20",0,null)
+l=A.cJ("http://3.148.130.154:8000/platillos?page="+m.r+"&limit=20",0,null)
 p=4
 s=7
 return A.R(A.rD(l),$async$v4)
@@ -89243,7 +89243,7 @@ s=p}while(true)switch(s){case 0:f=B.c.ef(m.f.a.a)
 if(f.length===0){m.a4(new A.amB(m))
 s=1
 break}m.a4(new A.amC(m))
-l=A.cJ("https://3.148.130.154:8000/buscar_platillos?query="+f+"&limit=20&page="+a,0,null)
+l=A.cJ("http://3.148.130.154:8000/buscar_platillos?query="+f+"&limit=20&page="+a,0,null)
 p=4
 s=7
 return A.R(A.rD(l),$async$ti)
@@ -89279,7 +89279,7 @@ else s.ti((s.e.length/20|0)+1)},
 zC(a){return this.alp(a)},
 alp(a){var s=0,r=A.Q(t.H),q=1,p=[],o=this,n,m,l,k,j
 var $async$zC=A.M(function(b,c){if(b===1){p.push(c)
-s=q}while(true)switch(s){case 0:k=A.cJ("https://3.148.130.154:8000/eliminar_platillo/"+A.k(a.h(0,"id")),0,null)
+s=q}while(true)switch(s){case 0:k=A.cJ("http://3.148.130.154:8000/eliminar_platillo/"+A.k(a.h(0,"id")),0,null)
 q=3
 s=6
 return A.R(A.avD(k),$async$zC)
@@ -89538,7 +89538,7 @@ o3(){var s=0,r=A.Q(t.H),q,p=2,o=[],n=[],m=this,l,k,j,i,h,g,f
 var $async$o3=A.M(function(a,b){if(a===1){o.push(b)
 s=p}while(true)switch(s){case 0:if(m.x||!m.y||m.f.a.a.length!==0){s=1
 break}m.a4(new A.aog(m))
-l=A.cJ("https://3.148.130.154:8000/ingredientes?page="+m.r+"&limit=20",0,null)
+l=A.cJ("http://3.148.130.154:8000/ingredientes?page="+m.r+"&limit=20",0,null)
 p=4
 s=7
 return A.R(A.rD(l),$async$o3)
@@ -89571,7 +89571,7 @@ s=p}while(true)switch(s){case 0:f=B.c.ef(m.f.a.a)
 if(f.length===0){m.a4(new A.ao6(m))
 s=1
 break}m.a4(new A.ao7(m))
-l=A.cJ("https://3.148.130.154:8000/buscar_ingredientes_tabla?query="+f+"&limit=20&page="+a,0,null)
+l=A.cJ("http://3.148.130.154:8000/buscar_ingredientes_tabla?query="+f+"&limit=20&page="+a,0,null)
 p=4
 s=7
 return A.R(A.rD(l),$async$tr)
@@ -89607,7 +89607,7 @@ else s.tr((s.e.length/20|0)+1)},
 zD(a){return this.alq(a)},
 alq(a){var s=0,r=A.Q(t.H),q=1,p=[],o=this,n,m,l,k,j
 var $async$zD=A.M(function(b,c){if(b===1){p.push(c)
-s=q}while(true)switch(s){case 0:k=A.cJ("https://3.148.130.154:8000/eliminar_ingrediente/"+A.k(a.h(0,"id")),0,null)
+s=q}while(true)switch(s){case 0:k=A.cJ("http://3.148.130.154:8000/eliminar_ingrediente/"+A.k(a.h(0,"id")),0,null)
 q=3
 s=6
 return A.R(A.avD(k),$async$zD)
@@ -89744,7 +89744,7 @@ o=p.f.a.a
 p.y=o
 if(h.length===0||o.length===0){p.c.ac(t.O).f.hw(A.h2(null,null,null,null,null,B.D,null,A.aS("Por favor, complete todos los campos",null,null,null,null,null,null),null,B.ba,null,null,null,null,null,null,null,null,null))
 s=1
-break}h=A.cJ("https://3.148.130.154:8000/login_administrador",0,null)
+break}h=A.cJ("http://3.148.130.154:8000/login_administrador",0,null)
 o=t.N
 n=A.ag(["Content-Type","application/json"],o,o)
 m=p.x
@@ -89822,7 +89822,7 @@ s.zV()
 s.f.S(s.ga7H())},
 zV(){var s=0,r=A.Q(t.H),q=1,p=[],o=this,n,m,l,k,j,i,h
 var $async$zV=A.M(function(a,b){if(a===1){p.push(b)
-s=q}while(true)switch(s){case 0:i=A.cJ("https://3.148.130.154:8000/usuarios",0,null)
+s=q}while(true)switch(s){case 0:i=A.cJ("http://3.148.130.154:8000/usuarios",0,null)
 q=3
 s=6
 return A.R(A.rD(i),$async$zV)
@@ -89847,7 +89847,7 @@ return A.P($async$zV,r)},
 zE(a){return this.alr(a)},
 alr(a){var s=0,r=A.Q(t.H),q=1,p=[],o=this,n,m,l,k,j
 var $async$zE=A.M(function(b,c){if(b===1){p.push(c)
-s=q}while(true)switch(s){case 0:k=A.cJ("https://3.148.130.154:8000/eliminar_usuario/"+A.k(a.h(0,"id")),0,null)
+s=q}while(true)switch(s){case 0:k=A.cJ("http://3.148.130.154:8000/eliminar_usuario/"+A.k(a.h(0,"id")),0,null)
 q=3
 s=6
 return A.R(A.avD(k),$async$zE)
