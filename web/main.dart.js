@@ -89831,15 +89831,15 @@ else{s=n*0.3
 return A.bG(A.b([A.cc(r,A.bG(A.b([A.k2(q,r,s,r),A.ah(r,10,r),A.b1("Warudu",r,r,r,A.cl().$3$color$fontSize$fontWeight(B.M,32,B.Y),B.aW,r)],m),B.y,B.ag,B.v),B.q,B.as,r,r,r,r,new A.ao(0,15,0,15),n),A.cc(r,A.bG(A.b([A.aDs(p,s,r),A.ah(r,20,r),A.k2(o,r,r,s)],m),B.y,B.ag,B.v),B.q,B.I,r,r,r,r,new A.ao(0,15,0,15),n)],m),B.y,B.F,B.v)}},
 $S:118}
 A.a6E.prototype={
-$2(a,b){var s,r,q,p=null,o="Somos un peque\xf1o grupo que busca expandir la variedad de platillos en tu mesa",n="assets/images/tik-tok.png",m="https://www.tiktok.com/@warudu8?_t=ZM-8tMxrfO6eta&_r=1",l="assets/images/instagram.png",k="https://www.instagram.com/warudu29/",j="assets/images/transparent_image.png",i="assets/images/enchiladas.jfif",h=b.b,g=this.a,f=t.p
-if(h>600){g=A.cY(A.bG(A.b([A.b1("que onda",p,p,p,A.cl().$3$color$fontSize$fontWeight(B.k,48,B.Y),p,p),A.ah(p,15,p),A.b1(o,p,p,p,A.cl().$3$color$fontSize$fontWeight(B.k,25.6,B.n),B.aW,p),A.ah(p,40,p),A.dE(A.b([A.ah(p,p,20),g.$3(n,m,60),A.ah(p,p,20),g.$3(l,k,60)],f),B.y,B.ag,B.v)],f),B.y,B.ag,B.v),1)
+$2(a,b){var s,r,q,p=null,o="Somos un peque\xf1o grupo que busca expandir la variedad de platillos en tu mesa",n="assets/images/tik-tok.png",m="assets/images/instagram.png",l="assets/images/transparent_image.png",k="assets/images/enchiladas.jfif",j=b.b,i=this.a,h=t.p
+if(j>600){i=A.cY(A.bG(A.b([A.b1("que onda",p,p,p,A.cl().$3$color$fontSize$fontWeight(B.k,48,B.Y),p,p),A.ah(p,15,p),A.b1(o,p,p,p,A.cl().$3$color$fontSize$fontWeight(B.k,25.6,B.n),B.aW,p),A.ah(p,40,p),A.dE(A.b([A.ah(p,p,20),i.$3(n,"https://www.tiktok.com/@warudu8?_t=ZM-8tMxrfO6eta&_r=1",60),A.ah(p,p,20),i.$3(m,"https://www.instagram.com/warudu29/",60)],h),B.y,B.ag,B.v)],h),B.y,B.ag,B.v),1)
 s=A.ah(p,p,20)
 r=A.y6(B.k,10)
 q=A.dw(12)
-return A.dE(A.b([g,s,A.DS(0.07295476381111111,A.cc(p,A.a1h(A.dw(12),A.Ld(B.cq,B.dm,p,new A.f2(i,p,p),new A.f2(j,p,p),h*0.4)),B.q,p,new A.cX(p,p,r,q,p,p,B.an),p,p,p,p,p))],f),B.y,B.F,B.v)}else{s=A.ah(p,20,p)
+return A.dE(A.b([i,s,A.DS(0.07295476381111111,A.cc(p,A.a1h(A.dw(12),A.Ld(B.cq,B.dm,p,new A.f2(k,p,p),new A.f2(l,p,p),j*0.4)),B.q,p,new A.cX(p,p,r,q,p,p,B.an),p,p,p,p,p))],h),B.y,B.F,B.v)}else{s=A.ah(p,20,p)
 r=A.y6(B.k,5)
 q=A.dw(12)
-return A.bG(A.b([s,A.DS(0.07295476381111111,A.cc(p,A.a1h(A.dw(12),A.Ld(B.cq,B.dm,p,new A.f2(i,p,p),new A.f2(j,p,p),h*0.45)),B.q,p,new A.cX(B.I,p,r,q,p,p,B.an),p,p,p,p,p)),A.ah(p,20,p),A.bG(A.b([A.b1("Nosotros",p,p,p,A.cl().$3$color$fontSize$fontWeight(B.k,24,B.Y),p,p),A.ah(p,10,p),A.b1(o,p,p,p,A.cl().$3$color$fontSize$fontWeight(B.k,16,B.n),B.aW,p),A.ah(p,20,p),A.dE(A.b([A.ah(p,p,20),g.$3(n,m,30),A.ah(p,p,20),g.$3(l,k,30)],f),B.y,B.ag,B.v)],f),B.y,B.F,B.v)],f),B.y,B.ag,B.v)}},
+return A.bG(A.b([s,A.DS(0.07295476381111111,A.cc(p,A.a1h(A.dw(12),A.Ld(B.cq,B.dm,p,new A.f2(k,p,p),new A.f2(l,p,p),j*0.45)),B.q,p,new A.cX(B.I,p,r,q,p,p,B.an),p,p,p,p,p)),A.ah(p,20,p),A.bG(A.b([A.b1("Nosotros",p,p,p,A.cl().$3$color$fontSize$fontWeight(B.k,24,B.Y),p,p),A.ah(p,10,p),A.b1(o,p,p,p,A.cl().$3$color$fontSize$fontWeight(B.k,16,B.n),B.aW,p),A.ah(p,20,p),A.dE(A.b([A.ah(p,p,20),i.$3(n,"https://www.tiktok.com/@warudu8",30),A.ah(p,p,20),i.$3(m,"https://www.instagram.com/warudu29",30)],h),B.y,B.ag,B.v)],h),B.y,B.F,B.v)],h),B.y,B.ag,B.v)}},
 $S:118}
 A.a6F.prototype={
 $2(a,b){var s=this.a,r=t.p
