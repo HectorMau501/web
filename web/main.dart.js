@@ -89211,7 +89211,7 @@ var $async$o6=A.L(function(c,d){if(c===1){o.push(d)
 s=p}while(true)switch(s){case 0:if(m.CW){s=1
 break}m.a3(new A.akf(m))
 g=b!=null?"&query="+b:""
-l=A.cI("http://www.warudu.com:8000/ingredientes_ordenados_alfabeticamente?page="+a+"&limit=10"+g,0,null)
+l=A.cI("https://www.warudu.com:8000/ingredientes_ordenados_alfabeticamente?page="+a+"&limit=10"+g,0,null)
 p=4
 s=7
 return A.R(A.rK(l),$async$o6)
@@ -89248,7 +89248,7 @@ s.o6(r,q.length===0?null:q)}},
 zY(a){return this.anb(a)},
 anb(a){var s=0,r=A.Q(t.H),q=1,p=[],o=this,n,m,l,k,j,i,h
 var $async$zY=A.L(function(b,c){if(b===1){p.push(c)
-s=q}while(true)switch(s){case 0:i=A.cI("http://www.warudu.com:8000/platillos/"+a,0,null)
+s=q}while(true)switch(s){case 0:i=A.cI("https://www.warudu.com:8000/platillos/"+a,0,null)
 q=3
 s=6
 return A.R(A.rK(i),$async$zY)
@@ -89272,7 +89272,7 @@ case 1:return A.N(p.at(-1),r)}})
 return A.P($async$zY,r)},
 wC(){var s=0,r=A.Q(t.H),q=1,p=[],o=this,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1
 var $async$wC=A.L(function(a2,a3){if(a2===1){p.push(a3)
-s=q}while(true)switch(s){case 0:a=A.cI(o.a.d?"http://www.warudu.com:8000/editar_platillo":"http://www.warudu.com:8000/agregar_platillo",0,null)
+s=q}while(true)switch(s){case 0:a=A.cI(o.a.d?"https://www.warudu.com:8000/editar_platillo":"https://www.warudu.com:8000/agregar_platillo",0,null)
 a0=o.a.c
 a0=a0==null?null:a0.i(0,"id")
 k=o.d.a.a
@@ -89436,7 +89436,7 @@ p.sbN(o.a.c.i(0,"imagen"))}else{q.dV(B.aO)
 p.dV(B.aO)}},
 wD(){var s=0,r=A.Q(t.H),q=1,p=[],o=this,n,m,l,k,j,i,h,g,f,e
 var $async$wD=A.L(function(a,b){if(a===1){p.push(b)
-s=q}while(true)switch(s){case 0:g=A.cI(o.a.d?"http://www.warudu.com:8000/editar_ingrediente":"http://www.warudu.com:8000/agregar_ingrediente",0,null)
+s=q}while(true)switch(s){case 0:g=A.cI(o.a.d?"https://www.warudu.com:8000/editar_ingrediente":"https://www.warudu.com:8000/agregar_ingrediente",0,null)
 f=o.a.c
 f=f==null?null:f.i(0,"id")
 k=o.d
@@ -89494,7 +89494,7 @@ s.r.dV(B.aO)
 s.w=0},
 wE(){var s=0,r=A.Q(t.H),q,p=2,o=[],n=this,m,l,k,j,i,h,g,f,e,d
 var $async$wE=A.L(function(a,b){if(a===1){o.push(b)
-s=p}while(true)switch(s){case 0:f=A.cI(n.a.d?"http://www.warudu.com:8000/editar_usuario":"http://www.warudu.com:8000/agregar_usuario",0,null)
+s=p}while(true)switch(s){case 0:f=A.cI(n.a.d?"https://www.warudu.com:8000/editar_usuario":"https://www.warudu.com:8000/agregar_usuario",0,null)
 e=n.a.c
 e=e==null?null:e.i(0,"id")
 j=n.f
@@ -89567,7 +89567,7 @@ v4(){var s=0,r=A.Q(t.H),q,p=2,o=[],n=[],m=this,l,k,j,i,h,g,f,e
 var $async$v4=A.L(function(a,b){if(a===1){o.push(b)
 s=p}while(true)switch(s){case 0:if(m.x||!m.y||m.Q.length!==0){s=1
 break}m.a3(new A.amX(m))
-l=A.cI("http://www.warudu.com:8000/platillos?page="+m.r+"&limit=20",0,null)
+l=A.cI("https://www.warudu.com:8000/platillos?page="+m.r+"&limit=20",0,null)
 p=4
 s=7
 return A.R(A.rK(l),$async$v4)
@@ -89606,7 +89606,7 @@ break}m.a3(new A.amM(m))
 p=4
 g=m.Q
 f=a?1:m.r
-l=A.cI("http://www.warudu.com:8000/platillos?query="+g+"&page="+f+"&limit=20",0,null)
+l=A.cI("https://www.warudu.com:8000/platillos?query="+g+"&page="+f+"&limit=20",0,null)
 s=7
 return A.R(A.rK(l),$async$pv)
 case 7:k=c
@@ -89642,7 +89642,7 @@ else s.pv(!1)},
 zG(a){return this.alP(a)},
 alP(a){var s=0,r=A.Q(t.H),q=1,p=[],o=this,n,m,l,k,j
 var $async$zG=A.L(function(b,c){if(b===1){p.push(c)
-s=q}while(true)switch(s){case 0:k=A.cI("http://www.warudu.com:8000/eliminar_platillo/"+A.k(a.i(0,"id")),0,null)
+s=q}while(true)switch(s){case 0:k=A.cI("https://www.warudu.com:8000/eliminar_platillo/"+A.k(a.i(0,"id")),0,null)
 q=3
 s=6
 return A.R(A.avV(k),$async$zG)
@@ -89875,7 +89875,7 @@ var $async$o5=A.L(function(a,b){if(a===1){o.push(b)
 s=p}while(true)switch(s){case 0:e=!1
 if(m.x||!m.y||m.Q.length!==0){s=1
 break}m.a3(new A.aor(m))
-l=A.cI("http://www.warudu.com:8000/ingredientes?page="+m.r+"&limit=20",0,null)
+l=A.cI("https://www.warudu.com:8000/ingredientes?page="+m.r+"&limit=20",0,null)
 p=4
 s=7
 return A.R(A.rK(l),$async$o5)
@@ -89916,7 +89916,7 @@ break}m.a3(new A.aog(m))
 p=4
 g=m.Q
 f=a?1:m.r
-l=A.cI("http://www.warudu.com:8000/ingredientes?query="+g+"&page="+f+"&limit=20",0,null)
+l=A.cI("https://www.warudu.com:8000/ingredientes?query="+g+"&page="+f+"&limit=20",0,null)
 s=7
 return A.R(A.rK(l),$async$pB)
 case 7:k=c
@@ -89952,7 +89952,7 @@ else s.pB(!1)},
 zH(a){return this.alQ(a)},
 alQ(a){var s=0,r=A.Q(t.H),q=1,p=[],o=this,n,m,l,k,j
 var $async$zH=A.L(function(b,c){if(b===1){p.push(c)
-s=q}while(true)switch(s){case 0:k=A.cI("http://www.warudu.com:8000/eliminar_ingrediente/"+A.k(a.i(0,"id")),0,null)
+s=q}while(true)switch(s){case 0:k=A.cI("https://www.warudu.com:8000/eliminar_ingrediente/"+A.k(a.i(0,"id")),0,null)
 q=3
 s=6
 return A.R(A.avV(k),$async$zH)
@@ -90073,7 +90073,7 @@ o=p.f.a.a
 p.y=o
 if(h.length===0||o.length===0){p.c.aa(t.O).f.hc(A.fy(null,null,null,null,null,B.x,null,A.b1("Por favor, complete todos los campos",null,null,null,null,null,null),null,B.b2,null,null,null,null,null,null,null,null,null))
 s=1
-break}h=A.cI("http://www.warudu.com:8000/login_administrador",0,null)
+break}h=A.cI("https://www.warudu.com:8000/login_administrador",0,null)
 o=t.N
 n=A.ak(["Content-Type","application/json"],o,o)
 m=p.x
@@ -90161,7 +90161,7 @@ var $async$v5=A.L(function(a,b){if(a===1){o.push(b)
 s=p}while(true)switch(s){case 0:e=!1
 if(m.x||!m.y||m.Q.length!==0){s=1
 break}m.a3(new A.att(m))
-l=A.cI("http://www.warudu.com:8000/usuarios?page="+m.r+"&limit=20",0,null)
+l=A.cI("https://www.warudu.com:8000/usuarios?page="+m.r+"&limit=20",0,null)
 p=4
 s=7
 return A.R(A.rK(l),$async$v5)
@@ -90208,7 +90208,7 @@ break}m.a3(new A.ati(m))
 p=4
 g=m.Q
 f=a?1:m.r
-l=A.cI("http://www.warudu.com:8000/usuarios?query="+g+"&page="+f+"&limit=20",0,null)
+l=A.cI("https://www.warudu.com:8000/usuarios?query="+g+"&page="+f+"&limit=20",0,null)
 s=7
 return A.R(A.rK(l),$async$pw)
 case 7:k=c
@@ -90244,7 +90244,7 @@ else s.pw(!1)},
 zI(a){return this.alR(a)},
 alR(a){var s=0,r=A.Q(t.H),q=1,p=[],o=this,n,m,l,k,j
 var $async$zI=A.L(function(b,c){if(b===1){p.push(c)
-s=q}while(true)switch(s){case 0:k=A.cI("http://www.warudu.com:8000/eliminar_usuario/"+A.k(a.i(0,"id")),0,null)
+s=q}while(true)switch(s){case 0:k=A.cI("https://www.warudu.com:8000/eliminar_usuario/"+A.k(a.i(0,"id")),0,null)
 q=3
 s=6
 return A.R(A.avV(k),$async$zI)
