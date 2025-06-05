@@ -89553,7 +89553,7 @@ this.e.el(B.b6)
 this.f.el(B.b6)},
 wG(){var s=0,r=A.N(t.H),q=1,p=[],o=this,n,m,l,k,j,i,h,g,f,e,d
 var $async$wG=A.J(function(a,b){if(a===1){p.push(b)
-s=q}while(true)switch(s){case 0:f=A.cz(o.a.d?"https://www.warudu.com/api/editar_ingrediente":"https://www.warudu.com/api/agregar_ingrediente",0,null)
+s=q}while(true)switch(s){case 0:f=A.cz(o.a.d?"https://www.warudu.com/api/editar_ingrediente":'https://www.warudu.com/api/agregar_ingrediente_admin"',0,null)
 e=o.a.c
 e=e==null?null:e.h(0,"id")
 k=o.d.a.a
