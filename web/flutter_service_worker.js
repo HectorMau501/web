@@ -3,9 +3,9 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"assets/AssetManifest.bin": "67be0e09ae6ec4b9ddda604473e51c6c",
-"assets/AssetManifest.bin.json": "c1577334de8de7c616c5427c8886235c",
-"assets/AssetManifest.json": "fa54bbe4dd44422fdc68b140abfa8f85",
+const RESOURCES = {"assets/AssetManifest.bin": "322f6fa6286b10960b3d41a812a4a916",
+"assets/AssetManifest.bin.json": "4a89a2dd7d5af7d0f660c92835cb20b2",
+"assets/AssetManifest.json": "81475c0bb5c374650b16d4f42fe3a24a",
 "assets/assets/images/delete.png": "194e2d22988730a80183b069fda83d9d",
 "assets/assets/images/edit.png": "2624fbf400facfe561e9869981e4af3d",
 "assets/assets/images/enchiladas.jfif": "2e10236a0f9bbc903246bed3506368c5",
@@ -22,6 +22,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "67be0e09ae6ec4b9ddda604473e51c6c
 "assets/assets/images/twitter.png": "1e1090455cc662dcb30606feaee2bc85",
 "assets/assets/images/warudu_logo.png": "186c2dd1173feb0a9e1f03aeefc2297b",
 "assets/assets/images/warudu_logo_crema.png": "02a40a7d09a5db4d82d50076e130a068",
+"assets/assets/images/warudu_qr.svg": "7896d775f03df7d429416fc3bbe64362",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
 "assets/fonts/MaterialIcons-Regular.otf": "b5b176ac5d242d60ccd9b8f83bb8d373",
 "assets/NOTICES": "98cab8a27a0ac49d5f86caa47ff74a9a",
@@ -41,14 +42,14 @@ const RESOURCES = {"assets/AssetManifest.bin": "67be0e09ae6ec4b9ddda604473e51c6c
 "canvaskit/skwasm_st.wasm": "56c3973560dfcbf28ce47cebe40f3206",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "flutter.js": "76f08d47ff9f5715220992f993002504",
-"flutter_bootstrap.js": "28731c80e6fdb4ff401b1a4f4988c704",
+"flutter_bootstrap.js": "7ec7cfd16b9f60cb75ef1a7802c08d51",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
 "index.html": "795aaff9b2bdbea8a7175e07ad889a27",
 "/": "795aaff9b2bdbea8a7175e07ad889a27",
-"main.dart.js": "20d78f575bf63fa9163b54484703b647",
+"main.dart.js": "ddfe8990db6fd10e814332bffd15023b",
 "manifest.json": "b7959bab336f9de3c5128549c7815e1d",
 "version.json": "e969cfa4a3abb178aa1ceed5875182c8",
 "warudu_logo_icon.png": "58a4051403eb968605f3043915126809"};
